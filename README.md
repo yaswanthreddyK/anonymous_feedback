@@ -3,7 +3,7 @@
 It is a web application where you can collect anonymous feedback by sharing a custom link that you get when you create an account.
 When sending messages you can select AI generated messages as suggessions.
 
-Technology Used: 
+Technology Used: <br/>
 NextJS - For building web application
 NextAuth - For authentication
 EmailSend - For Sending verification Email
