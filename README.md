@@ -4,11 +4,16 @@ It is a web application where you can collect anonymous feedback by sharing a cu
 When sending messages you can select AI generated messages as suggessions.
 
 Technology Used: <br/>
-NextJS - For building web application
-NextAuth - For authentication
-EmailSend - For Sending verification Email
-Gemini API - For generating feedback suggessions
-Shandcn - Component Library
+NextJS - For building web application <br />
+NextAuth - For authentication  <br />
+EmailSend - For Sending verification Email  <br />
+Gemini API - For generating feedback suggessions  <br />
+Shandcn - Component Library  <br />
+Zod - For Validation <br />
+MongoDB - Database with mongoose wrapper <br />
+React Hook Forms - For creating forms
+Tailwindcss - For styling
+axios - for server communicatoins
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
