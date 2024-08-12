@@ -23,7 +23,7 @@ import { ApiResponse } from '@/types/ApiResponse'
 import { Loader2 } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
  
-const page = ({params}: {params: {username: string}}) => {
+const Page = ({params}: {params: {username: string}}) => {
     const [isSubmitting, setIsSubmitting] = useState(false)
     const [isFetchingSuggessions, setIsFetchingSuggessions] = useState(false)
     const [suggestedMessages, setSuggestedMessages] = useState(['What is your favourite food?', 'Do you have a dog?', 'Do you watch anime?'])
@@ -131,4 +131,4 @@ const page = ({params}: {params: {username: string}}) => {
   )
 }
 
-export default page
+export default Page

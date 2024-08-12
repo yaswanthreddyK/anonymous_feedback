@@ -15,7 +15,7 @@ import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 import { Loader2 } from 'lucide-react'
 
-const page = () => {
+const Signup = () => {
   const [username, setUsername] = useState('')
   const [usernameMessage, setUsernameMessage] = useState('')
   const [isCheckingUsername, setIsCheckingUsername] = useState(false)
@@ -54,7 +54,7 @@ const page = () => {
       }
     }
     checkUsernameUniqueness()
-  },[username])
+  },[username, debounedIsChecking])
 
   const onSubmit = async (data: z.infer<typeof SignupSchema>) => {
     setIsSubmitting(true)
@@ -166,4 +166,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Signup

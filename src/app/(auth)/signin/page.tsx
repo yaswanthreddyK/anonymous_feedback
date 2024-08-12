@@ -118,7 +118,7 @@ const Signin = () => {
         </Form>
         <div className='text-center mt-4'>
           <p>
-            Don't have an account? {' '}
+            Don&apos;t have an account? &nbsp;&nbsp;
             <Link href='/signup' className='text-blue-600 hover:text-blue-800'>Sign up</Link>
           </p>
         </div>
